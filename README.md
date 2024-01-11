@@ -37,10 +37,10 @@ Certainly! Below is a step-by-step execution process for your Django-based proje
     python manage.py runserver
 
 12. ## Access the Application:
-   Open a web browser and go to `http://127.0.0.1:8000/` to view the application.
+    Open a web browser and go to `http://127.0.0.1:8000/` to view the application.
 
 13. ## Access the Admin Panel:
-   If you created a superuser, you can access the admin panel at `http://127.0.0.1:8000/admin/` and log in using the superuser credentials.
+    If you created a superuser, you can access the admin panel at `http://127.0.0.1:8000/admin/` and log in using the superuser credentials.
 
 14. ## Deactivate the Virtual Environment:
     When you're done working on the project, deactivate the virtual environment.
