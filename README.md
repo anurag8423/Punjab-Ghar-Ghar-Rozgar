@@ -8,34 +8,41 @@ Certainly! Below is a step-by-step execution process for your Django-based proje
    ### cd <repository_directory>
 
 2. ## Create a Virtual Environment:
-   ### python3 -m venv virtual
+   ```bash
+   python3 -m venv virtual
 
-3. ## Activate the Virtual Environment:
+4. ## Activate the Virtual Environment:
    - On Windows:
-     ### virtual\Scripts\activate
+     ```bash
+     virtual\Scripts\activate
      
    - On macOS/Linux:
-     ### source virtual/bin/activate
+     ```bash
+     virtual/bin/activate
 
-4. ## Install Dependencies:
-   ### pip install -r requirements.txt
+5. ## Install Dependencies:
+   ```bash
+   pip install -r requirements.txt
 
-5. ## Apply Database Migrations:
-   ### python manage.py migrate
+7. ## Apply Database Migrations:
+   ```bash
+   python manage.py migrate
 
+9. ## Create Superuser (if needed):
+   ```bash
+   python manage.py createsuperuser
 
-6. ## Create Superuser (if needed):
-   ### python manage.py createsuperuser
+11. ## Run the Development Server:
+    ```bash
+    python manage.py runserver
 
-7. ## Run the Development Server:
-   ### python manage.py runserver
-
-8. ## Access the Application:
+12. ## Access the Application:
    Open a web browser and go to `http://127.0.0.1:8000/` to view the application.
 
-9. ## Access the Admin Panel:
+13. ## Access the Admin Panel:
    If you created a superuser, you can access the admin panel at `http://127.0.0.1:8000/admin/` and log in using the superuser credentials.
 
-10. ## Deactivate the Virtual Environment:
+14. ## Deactivate the Virtual Environment:
     When you're done working on the project, deactivate the virtual environment.
-    ### deactivate
+    ```bash
+    deactivate
